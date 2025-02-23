@@ -1,0 +1,25 @@
+.slide__text-section {
+  padding-top: 55px;
+}
+.slide__testimoni {
+  width: 70%;
+  font-size: 1.5rem;
+}
+.slide__quote-icon {
+  width: 80px;
+}
+
+.slide__profile {
+  gap: 10px;
+}
+.slide__name {
+  font-size: 1.5rem;
+}
+
+.slide__role {
+  font-size: 1.2rem;
+}
+
+.slide__image-section {
+  background-size: 60% auto;
+}/*# sourceMappingURL=tablet.css.map */

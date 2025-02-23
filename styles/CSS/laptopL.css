@@ -1,0 +1,23 @@
+.slider {
+  background-size: 40% auto;
+}
+.slide {
+  max-height: 600px;
+  height: 80%;
+}
+.slide__testimoni {
+  font-size: 2rem;
+}
+.slide__quote-icon {
+  width: 100px;
+  inset: -50px 25%;
+}
+
+.slide__image-section {
+  background-size: auto 100%;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  inset: auto 30% -25px;
+}/*# sourceMappingURL=laptopL.css.map */

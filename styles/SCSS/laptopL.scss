@@ -1,0 +1,37 @@
+@import "variables";
+
+body {
+  @at-root .container {
+    @at-root .slider {
+      background-size: 40% auto;
+
+      @at-root .slide {
+        max-height: 600px;
+        height: 80%;
+
+        @at-root .slide__text-section {
+          @at-root .slide__testimoni {
+            font-size: 2rem;
+
+            @at-root .slide__quote-icon {
+              width: 100px;
+              inset: -50px 25%;
+            }
+          }
+        }
+
+        @at-root .slide__image-section {
+          background-size: auto 100%;
+
+          @at-root .slide__img-container {
+            @at-root .button {
+              width: 100px;
+              height: 50px;
+              inset: auto 30% -25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

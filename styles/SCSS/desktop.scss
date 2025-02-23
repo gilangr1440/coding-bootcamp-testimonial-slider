@@ -1,0 +1,38 @@
+@import "variables";
+
+body {
+  @at-root .container {
+    @at-root .slider {
+      @at-root .slide {
+        max-height: 800px;
+        height: 90%;
+
+        @at-root .slide__text-section {
+          gap: 40px;
+
+          @at-root .slide__testimoni {
+            font-size: 2.5rem;
+            left: 25%;
+
+            @at-root .slide__quote-icon {
+              width: 120px;
+              inset: -55px 23%;
+            }
+          }
+
+          @at-root .slide__profile {
+            left: 25%;
+          }
+        }
+
+        @at-root .slide__image-section {
+          background-size: 90% auto;
+
+          @at-root .slide__img-container {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
